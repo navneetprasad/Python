@@ -28,14 +28,59 @@
 # print(f"Name: {name}, Age: {age}, City: {city}")
 
 # print("============")
-code = "Jaskirat Singh-Python Developer"
-print(code[0]) #Output: J
-print(code[-1]) #Output: r
-print(code[0:8]) #Output: Jaskirat
 
-date = "14.08.2026"
-print((date[0:2])) #Output: 14
-print((date[3:5])) #Output: 08
-print((date[-2])) #Output: 2026
+# code = "Jaskirat Singh-Python Developer"
+# print(code[0]) #Output: J
+# print(code[-1]) #Output: r
+# print(code[0:8]) #Output: Jaskirat
 
-print(code[0:9]) #Output: Jaskirat Singh
+# date = "14.08.2026"
+# print((date[0:2])) #Output: 14
+# print((date[3:5])) #Output: 08
+# print((date[-2])) #Output: 2026
+
+# print(code[0:9]) #Output: Jaskirat Singh
+
+#String Slicing
+# name = "Jaskirat"
+# print(name.strip()) #Output: Jaskirat
+# print(name.lstrip()) #Output: jaskirat
+# print(name.rstrip()) #Output: Jaskirat
+
+# #strip specific characters
+# print("$Jaskirat$".strip("$")) #Output: Jaskirat
+
+# #case-insensitive comparison
+# search = "EMAIL"
+# data = "email"
+# print(search.lower().strip() == data.lower().strip()) #Output: True
+
+# #String Searching
+# phone = "123-456-7890"
+# print(phone.startswith("123")) #Output: True
+
+# file = "document.pdf"
+# print(file.endswith(".pdf")) #Output: True
+
+# email = "user@example.com"
+# print(email.find("@") != -1) #Output: True
+# print(("@" in email)) #Output: True
+
+# #use find() to slice dynamically
+# print(phone[phone.find("-")+1:]) #Output: 456-7890
+
+# Strings Validate,Join,Format
+
+#Validation
+# print("USA".isalpha()) #Output: True
+# print("123".isnumeric()) #Output: True
+
+# #join
+# parts = ["2026", "08", "14"]
+# print("-".join(parts)) #Output: 2026-08-14
+
+# #format
+# print("Hi {n}, order {o}".format(n="Jaskirat", o=1)) #Output: Hi Jaskirat, order 1
+
+# #zfill
+# print("42".zfill(5)) #Output: 00042
