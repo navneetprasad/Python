@@ -28,3 +28,14 @@
 # print(f"Name: {name}, Age: {age}, City: {city}")
 
 # print("============")
+code = "Jaskirat Singh-Python Developer"
+print(code[0]) #Output: J
+print(code[-1]) #Output: r
+print(code[0:8]) #Output: Jaskirat
+
+date = "14.08.2026"
+print((date[0:2])) #Output: 14
+print((date[3:5])) #Output: 08
+print((date[-2])) #Output: 2026
+
+print(code[0:9]) #Output: Jaskirat Singh
