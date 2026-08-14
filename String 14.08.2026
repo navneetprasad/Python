@@ -1,0 +1,30 @@
+# #Without Variables
+# print("My name is Jaskirat Singh")
+# print("I am 25 years old")
+
+# #With Variables
+# name = "Jaskirat Singh"
+# language = "Python"
+# print(f"My name is {name}")
+# print(f"I am learning {language}")
+
+#Escape Sequences
+# print("Line 1\nLine 2") #Output: Line 1
+# print("Hi\tEveryone") #Output: Hi    Everyone
+# print("C:\\Users\\Navneet Prasad\\OneDrive\\Documents\\WB Games")
+# print("She said, \"Hello!\"") #Output: She said, "Hello!"
+
+#String Transformations
+# date = "14.08.2026"
+# print(date.replace(".", "-")) #Output: 14-08-2026
+
+# first_name = "Jaskirat"
+# last_name = "Singh"
+# full_name = f"{first_name} {last_name}"
+# print(full_name) #Output: Jaskirat Singh
+
+# csv_data = "Navneet,25,Delhi"
+# name, age, city = csv_data.split(",")
+# print(f"Name: {name}, Age: {age}, City: {city}")
+
+# print("============")
