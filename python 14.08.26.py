@@ -1,0 +1,74 @@
+#Variables in Python
+#name = "Jaskirat Singh"
+#print(name)
+
+#name = "Ajit Doval"
+#print(name)
+
+#Updating and calculating
+#name = "Modi"
+#print(name)
+#name = "Rehman Dakkait"
+#print(name)
+
+#a = 10
+#b = 20  
+#c = a + b
+#print(c)
+
+#DataTypes in Python
+#name = "Jaskirat Singh" #String
+#age = 25 #Integer
+#height = 5.9 #Float
+#is_student = True #Boolean
+#c = 3.14 #Float
+#n = None #NoneType
+
+# #Primitive DataTypes in Python
+# nums = [1,2,3,4,5] #List
+# y ="Hello World" #String
+# pair = (1,2) #Tuple
+
+#Escape
+# print("Hi\"Python\"")
+
+# #Buit-in Functions
+# print(len("Jaskirat Singh"))
+# #External Libraries
+# import math
+# print(math.sqrt(16))
+# #User Defined Functions
+# def greet(name):
+#     return "Hello, " + name + "!"
+# print(greet("Jaskirat Singh"))
+
+#Built-in Functions
+# name = input("Enter your name: ")
+# print(name)
+
+# text = "Hello, World!"
+# num = 10
+# #Functions_work on either
+# print(type(text)) #Output: <class 'str'>
+# print(len(text)) #Output: 13
+
+# #Methods_work on specific data types
+# print(text.upper()) #Output: HELLO, WORLD!
+# print(text.bit.length()) #Output: hello, world!
+
+# #Print Function
+# #Basic Syntax
+# print("Saurav Loves Tea")
+
+# #Multiple Values
+# print("Sum", 10 + 20)
+
+#Function vs Method
+# text = "Hello, World!"
+# num = 10
+# #Functions work on either
+# print(type(text)) #Output: <class 'str'>
+# print(len(text)) #Output: 13
+# #Methods - class specific
+# print(text.upper()) #Output: HELLO, WORLD!
+# print(num.bit_length()) #Output: 4
